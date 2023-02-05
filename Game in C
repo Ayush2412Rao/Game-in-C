@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+	int i;
+    int a;
+    
+    while(1){
+	
+	printf("\n1.Cricket\n2.Football\n3.Basketball\n4.Exit");
+    printf("\nEnter the game you want to play: ");
+    scanf("%d",&i);
+    switch(i){
+    	case 1:
+        	printf("Let's Play Cricket");
+        	break;
+        case 2:
+        	printf("Let's Play Football");
+        	break;
+        case 3:
+        	printf("Lets Play Basketball");
+        	break;
+        case 4:
+        	exit(0);
+        default:
+        	printf("You Choose outnumbered");
+        	break;
+    }}
+    return 0;
+}
